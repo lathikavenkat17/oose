@@ -1,0 +1,77 @@
+/* Carousel Container */
+.carousel {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Track Container */
+  .carousel-track-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  /* Track for Images */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Each Slide */
+  .slide {
+    min-width: 100%; /* Each slide takes full width */
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Navigation Buttons */
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  
+  .prev-btn { left: 10px; }
+  .next-btn { right: 10px; }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Dots for Navigation */
+  .carousel-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background: gray;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .dot.active {
+    background: black;
+  }
+  
