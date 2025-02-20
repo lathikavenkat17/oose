@@ -1,0 +1,120 @@
+{
+    "quizzes": [
+        {
+            "title": "HTML",
+            "icon": "./assets/images/icon-html.svg",
+            "questions": [
+                {
+                    "question": "Which of the following is not a characteristic of software engineering?",
+                    "options": [
+                        "Structured development process",
+                        "Continuous maintenance",
+                        "Random development",
+                        "Quality assurance"
+                    ],
+                    "answer": "Random development"
+                },
+                {
+                    "question": "What is the primary focus of object-oriented analysis?",
+                    "options": [
+                        "Analyzing user requirements",
+                        "Analyzing system architecture",
+                        "Analyzing hardware components",
+                        "Analyzing class structures and relationships"
+                    ],
+                    "answer": "Analyzing class structures and relationships"
+                },
+                {
+                    "question": "What does the acronym UML stand for?",
+                    "options": [
+                        "Unified management language",
+                        "Universal modeling language",
+                        "Unified modeling language",
+                        "Unique modeling language"
+                    ],
+                    "answer": "Unified modeling language"
+                },
+                {
+                    "question": "Which of the following is a feature of OOP?",
+                    "options": [
+                        "Encapsulation",
+                        "Inheritance",
+                        "Polymorphism",
+                        "All the above"
+                    ],
+                    "answer": "All the above"
+                },
+                {
+                    "question": "Which of these is not a UML diagram?",
+                    "options": [
+                        "Use case",
+                        "Class",
+                        "Flowchart",
+                        "Sequence"
+                    ],
+                    "answer": "Flowchart"
+                },
+                {
+                    "question": "Which of these represents dynamic polymorphism?",
+                    "options": [
+                        "Method overloading",
+                        "Operator overloading",
+                        "Method overriding",
+                        "Data abstraction"
+                    ],
+                    "answer": "Method overriding"
+                },
+                {
+                    "question": "Which design pattern defines a family of algorithms and makes them interchangeable?",
+                    "options": [
+                        "Observer",
+                        "Strategy",
+                        "Singleton",
+                        "Factory"
+                    ],
+                    "answer": "Strategy"
+                },
+                {
+                    "question": "Which UML diagram shows the static structure of a system?",
+                    "options": [
+                        "Sequence diagram",
+                        "Class diagram",
+                        "Activity diagram",
+                        "State diagram"
+                    ],
+                    "answer": "Class diagram"
+                },
+                {
+                    "question": "Which keyword is used to inherit a class in Java?",
+                    "options": [
+                        "Implement",
+                        "Extend",
+                        "Inherit",
+                        "Super"
+                    ],
+                    "answer": "Extend"
+                },
+                {
+                    "question": "Which keyword in Java is used to prevent method overriding?",
+                    "options": [
+                        "Static",
+                        "Final",
+                        "Abstract",
+                        "Private"
+                    ],
+                    "answer": "Final"
+                },
+                {
+                    "question": "Which of the following is NOT a type of OOSE testing?",
+                    "options": [
+                        "Class testing",
+                        "Interaction testing",
+                        "Module testing",
+                        "System testing"
+                    ],
+                    "answer": "Module testing"
+                }
+            ]
+        }
+    ]
+}
